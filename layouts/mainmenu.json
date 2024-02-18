@@ -1,0 +1,1624 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "MainMenu",
+  "name": "MainMenu",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": true,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": true,
+    "zoomFactor": 0.43357743047024166,
+    "windowMask": false
+  },
+  "objectsGroups": [
+    {
+      "name": "Buttons",
+      "objects": [
+        {
+          "name": "Play"
+        },
+        {
+          "name": "Back"
+        },
+        {
+          "name": "Quit"
+        },
+        {
+          "name": "Settings"
+        }
+      ]
+    }
+  ],
+  "variables": [],
+  "instances": [
+    {
+      "angle": 358,
+      "customSize": true,
+      "depth": 1,
+      "height": 210,
+      "layer": "Title",
+      "name": "Title",
+      "persistentUuid": "8887a57d-2a9e-48be-a29f-058cb82012e1",
+      "width": 562,
+      "x": 363,
+      "y": 68,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 60,
+      "layer": "",
+      "name": "Play",
+      "persistentUuid": "83a5addb-ebb4-4066-bbe2-471fd5c2eb67",
+      "width": 157,
+      "x": 560,
+      "y": 369,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 60,
+      "layer": "",
+      "name": "Settings",
+      "persistentUuid": "d8b16e07-ca80-49ae-873b-001700f4b5fa",
+      "width": 313,
+      "x": 491,
+      "y": 476,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 53,
+      "layer": "",
+      "name": "Quit",
+      "persistentUuid": "5b5ad1a8-e06d-4fa5-ac5a-3f5454eb6d21",
+      "width": 147,
+      "x": 568,
+      "y": 587,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "HomeMarker",
+      "persistentUuid": "5c6b875a-22ca-4c5c-aa4d-9a930d642877",
+      "width": 1281,
+      "x": -2,
+      "y": 0,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 55,
+      "layer": "",
+      "name": "SoundVolume",
+      "persistentUuid": "158f62ec-df35-43b6-a28a-3ebde06b6848",
+      "width": 207,
+      "x": 2068,
+      "y": 320,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 55,
+      "layer": "",
+      "name": "MusicVolume",
+      "persistentUuid": "ba3d6545-1257-482c-b114-8e8ceca9b27a",
+      "width": 209,
+      "x": 2071,
+      "y": 467,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 35,
+      "layer": "",
+      "name": "MusicSlider",
+      "persistentUuid": "efaccef7-5f97-4586-a4b5-b30e31fdb9f3",
+      "width": 501,
+      "x": 1931,
+      "y": 536,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 45,
+      "layer": "",
+      "name": "MusicSlider",
+      "persistentUuid": "a1de26f8-7d3b-49c7-994e-6671e2ecb33d",
+      "width": 501,
+      "x": 1931,
+      "y": 397,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 55,
+      "layer": "",
+      "name": "Back",
+      "persistentUuid": "c80314e1-e760-40e8-b599-d4ce74abfaee",
+      "width": 166,
+      "x": 2090,
+      "y": 608,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "SettingsMarker",
+      "persistentUuid": "2e0b17a9-196c-4f3e-8a26-2ee0c3162e58",
+      "width": 1280,
+      "x": 1504,
+      "y": 0,
+      "zOrder": 12,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "Background1",
+      "name": "NewTiledSprite",
+      "persistentUuid": "cfededb4-92ac-4c67-ada7-b983bf5ef8c6",
+      "width": 1280,
+      "x": 0,
+      "y": 0,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "Background1",
+      "name": "NewTiledSprite",
+      "persistentUuid": "93e826ec-0146-4f20-9ce6-46dbbb7f82fb",
+      "width": 1280,
+      "x": 1504,
+      "y": 0,
+      "zOrder": 13,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "Background1",
+      "name": "NewTiledSprite2",
+      "persistentUuid": "e4303f1e-4699-4e52-a1ef-d267f97eedcc",
+      "width": 1280,
+      "x": 0,
+      "y": 160,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "Background1",
+      "name": "NewTiledSprite3",
+      "persistentUuid": "f654dbf5-34eb-47f0-90bb-568b3c630054",
+      "width": 1280,
+      "x": 0,
+      "y": 224,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "Background1",
+      "name": "NewTiledSprite2",
+      "persistentUuid": "bca2e6b6-2835-4ce9-a772-0461f7753f70",
+      "width": 1280,
+      "x": 1504,
+      "y": 160,
+      "zOrder": 14,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "Background1",
+      "name": "NewTiledSprite3",
+      "persistentUuid": "474d0711-cfe9-4e95-bfdd-292003e2f6e0",
+      "width": 1280,
+      "x": 1504,
+      "y": 224,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "Background1",
+      "name": "NewTiledSprite4",
+      "persistentUuid": "90e1b1c2-d21b-417c-9592-94dded8df788",
+      "width": 1280,
+      "x": 0,
+      "y": 256,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "Background1",
+      "name": "NewTiledSprite4",
+      "persistentUuid": "c090110b-acc7-41db-beb8-a2a396b26435",
+      "width": 1280,
+      "x": 1504,
+      "y": 256,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "Background1",
+      "name": "NewTiledSprite5",
+      "persistentUuid": "d9d70707-1133-43b0-941c-383242e4f45f",
+      "width": 1280,
+      "x": 0,
+      "y": 416,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "Background1",
+      "name": "NewTiledSprite5",
+      "persistentUuid": "30c747eb-09da-447d-b861-3d6b2feb068d",
+      "width": 1280,
+      "x": 1504,
+      "y": 416,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "layer": "groundLayer",
+      "name": "floor",
+      "persistentUuid": "03743e4d-8d2f-478a-a92a-3065d9bfcbda",
+      "width": 1280,
+      "x": 0,
+      "y": 576,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "layer": "groundLayer",
+      "name": "floor",
+      "persistentUuid": "d2559199-e086-4946-a87b-da4bfb14bc07",
+      "width": 1280,
+      "x": 1505,
+      "y": 576,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "Title",
+      "name": "Transition",
+      "persistentUuid": "b926cd50-8014-4110-9f31-4249b8b8c76b",
+      "width": 1,
+      "x": 1408,
+      "y": -96,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "",
+      "name": "Play",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Effect",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "Play",
+        "opacity": 255,
+        "scale": 3,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Settings",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Effect",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "Settings",
+        "opacity": 255,
+        "scale": 3,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Quit",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Effect",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "Quit",
+        "opacity": 255,
+        "scale": 3,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "a5c795950e082226c3f503485fbdef06260d5738440f2e5e61e022b65317af47",
+      "name": "HomeMarker",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Normal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red block_Normal.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "SoundVolume",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "Sound",
+        "opacity": 255,
+        "scale": 3,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "MusicVolume",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "Music",
+        "opacity": 255,
+        "scale": 3,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "assetStoreId": "84dcf81d35efee74a6cab51b4103acc5443e7f39fd7366e2ac58641e60323b4a",
+      "name": "SoundSlider",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BarTopPadding": 3,
+        "BarLeftPadding": 3,
+        "BarRightPadding": 3,
+        "BarBottomPadding": 4,
+        "LabelMargin": 4
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 4,
+          "height": 18,
+          "leftMargin": 2,
+          "rightMargin": 2,
+          "texture": "Square Green Slider Border.png",
+          "tiled": false,
+          "topMargin": 4,
+          "width": 215
+        },
+        "FillBar": {
+          "bottomMargin": 1,
+          "height": 11,
+          "leftMargin": 1,
+          "rightMargin": 1,
+          "texture": "Square Green Slider Fill Bar.png2",
+          "tiled": false,
+          "topMargin": 1,
+          "width": 11
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "It displays the value when it changes.",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 16,
+          "color": {
+            "b": 221,
+            "g": 221,
+            "r": 221
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "It displays the value when it changes.",
+            "font": "",
+            "textAlignment": "",
+            "characterSize": 16,
+            "color": "221;221;221"
+          }
+        },
+        "Thumb": {
+          "bottomMargin": 3,
+          "height": 50,
+          "leftMargin": 3,
+          "rightMargin": 3,
+          "texture": "Square Green Slider Thumb.png",
+          "tiled": false,
+          "topMargin": 3,
+          "width": 50
+        }
+      }
+    },
+    {
+      "assetStoreId": "84dcf81d35efee74a6cab51b4103acc5443e7f39fd7366e2ac58641e60323b4a",
+      "name": "MusicSlider",
+      "type": "PanelSpriteSlider::PanelSpriteSlider",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "BarTopPadding": 3,
+        "BarLeftPadding": 3,
+        "BarRightPadding": 3,
+        "BarBottomPadding": 4,
+        "LabelMargin": 4
+      },
+      "childrenContent": {
+        "Background": {
+          "bottomMargin": 4,
+          "height": 18,
+          "leftMargin": 2,
+          "rightMargin": 2,
+          "texture": "Square Green Slider Border.png",
+          "tiled": false,
+          "topMargin": 4,
+          "width": 215
+        },
+        "FillBar": {
+          "bottomMargin": 1,
+          "height": 11,
+          "leftMargin": 1,
+          "rightMargin": 1,
+          "texture": "Square Green Slider Fill Bar.png",
+          "tiled": false,
+          "topMargin": 1,
+          "width": 11
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "It displays the value when it changes.",
+          "font": "",
+          "textAlignment": "",
+          "characterSize": 16,
+          "color": {
+            "b": 221,
+            "g": 221,
+            "r": 221
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "It displays the value when it changes.",
+            "font": "",
+            "textAlignment": "",
+            "characterSize": 16,
+            "color": "221;221;221"
+          }
+        },
+        "Thumb": {
+          "bottomMargin": 3,
+          "height": 50,
+          "leftMargin": 3,
+          "rightMargin": 3,
+          "texture": "Square Green Slider Thumb.png",
+          "tiled": false,
+          "topMargin": 3,
+          "width": 50
+        }
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "Back",
+      "type": "BitmapText::BitmapTextObject",
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Effect",
+          "doubleParameters": {
+            "distance": 15,
+            "innerStrength": 1,
+            "outerStrength": 2
+          },
+          "stringParameters": {
+            "color": "255;255;255"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "ButtonFSM",
+          "type": "ButtonStates::ButtonFSM",
+          "ShouldCheckHovering": true,
+          "State": "Idle",
+          "TouchId": 0,
+          "TouchIsInside": false,
+          "MouseIsInside": false,
+          "Index": 2.0247e-320
+        }
+      ],
+      "content": {
+        "text": "Back",
+        "opacity": 255,
+        "scale": 3,
+        "fontSize": 20,
+        "tint": "255;255;255",
+        "bitmapFontResourceName": "8BitOperatorPlus8Regular_Edited.fnt",
+        "textureAtlasResourceName": "8BitOperatorPlus8Regular_Edited3.png",
+        "align": "center",
+        "wordWrap": true
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "a5c795950e082226c3f503485fbdef06260d5738440f2e5e61e022b65317af47",
+      "name": "SettingsMarker",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "Normal",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red block_Normal.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "key",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red block_key.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "lock",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red block_lock.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "puzzle",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Red block_puzzle.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 320,
+      "name": "NewTiledSprite",
+      "texture": "1.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 320,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 320,
+      "name": "NewTiledSprite2",
+      "texture": "2.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 320,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 320,
+      "name": "NewTiledSprite3",
+      "texture": "3.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 320,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "height": 320,
+      "name": "NewTiledSprite4",
+      "texture": "4.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 320,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "653519df871cb169057a6348a2ee25ced783ccbf0e9925de08cb28460c37d2b5",
+      "height": 128,
+      "name": "PurpleBackground",
+      "texture": "tiled_Purple background.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    }
+  ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Play"
+      },
+      {
+        "objectName": "Back"
+      },
+      {
+        "objectName": "Settings"
+      },
+      {
+        "objectName": "SoundVolume"
+      },
+      {
+        "objectName": "MusicVolume"
+      },
+      {
+        "objectName": "Quit"
+      },
+      {
+        "objectName": "HomeMarker"
+      },
+      {
+        "objectName": "SettingsMarker"
+      },
+      {
+        "objectName": "SoundSlider"
+      },
+      {
+        "objectName": "MusicSlider"
+      },
+      {
+        "objectName": "NewTiledSprite"
+      },
+      {
+        "objectName": "NewTiledSprite2"
+      },
+      {
+        "objectName": "NewTiledSprite3"
+      },
+      {
+        "objectName": "NewTiledSprite4"
+      },
+      {
+        "objectName": "PurpleBackground"
+      }
+    ]
+  },
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "HomeMarker"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "SettingsMarker"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "Play",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffect"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            "\"0;0;0\"",
+            "1",
+            "\"Circular\"",
+            "\"Forward\"",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "FlashTransitionPainter::FlashTransitionPainter::PaintEffectIsEnd"
+          },
+          "parameters": [
+            "Transition",
+            "FlashTransitionPainter",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"GameScreen1\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "Settings",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenCameraPosition2"
+          },
+          "parameters": [
+            "",
+            "\"CameraMove\"",
+            "SettingsMarker.CenterX()",
+            "CameraCenterY()",
+            "",
+            "\"easeInOutQuad\"",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "Quit",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Quit"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsClicked"
+          },
+          "parameters": [
+            "Back",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Tween::TweenCameraPosition2"
+          },
+          "parameters": [
+            "",
+            "\"CameraMove\"",
+            "HomeMarker.CenterX()",
+            "CameraCenterY()",
+            "",
+            "\"easeInOutQuad\"",
+            "1"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "ButtonStates::ButtonFSM::IsHovered"
+          },
+          "parameters": [
+            "Buttons",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "EffectCapability::EffectBehavior::EnableEffect"
+          },
+          "parameters": [
+            "Buttons",
+            "Effect",
+            "\"Effect\"",
+            "yes"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "inverted": true,
+            "value": "ButtonStates::ButtonFSM::IsHovered"
+          },
+          "parameters": [
+            "Buttons",
+            "ButtonFSM",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "EffectCapability::EffectBehavior::EnableEffect"
+          },
+          "parameters": [
+            "Buttons",
+            "Effect",
+            "\"Effect\"",
+            "no"
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "groundLayer",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Background1",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Title",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "ButtonFSM",
+      "type": "ButtonStates::ButtonFSM"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "FlashTransitionPainter",
+      "type": "FlashTransitionPainter::FlashTransitionPainter"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
+    }
+  ]
+}
